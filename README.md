@@ -83,19 +83,45 @@ To interact with your deployed smart contract, complete the following steps:
     > ```text
     > Dummy account1 address: 0x0c0669Cd5e60a6F4b8ce437E4a4A007093D368Cb
     > Dummy account2 address: 0x7A1f3dFAa0a4a19844B606CD6e91d693083B12c0
-    > ```
+      ![](https://github.com/Emmalu868/Solidity/blob/main/Images/dummy%20accts.png)
+
 
 2. Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the `contractBalance` function to verify that the funds were added to your contract:
 
     * Transaction 1: Send 1 ether as wei.
+![Result screenshot](https://github.com/Emmalu868/Solidity/blob/main/Images/1%20ether%20as%20wei%20confirmation%20of%20transaction.png)
+![Result screenshot](https://github.com/Emmalu868/Solidity/blob/main/Images/contract%20balance.png)
 
-    * Transaction 2: Send 10 ether as wei.
+    * Transaction 2: Send 10 ether as wei.  
+![Result screenshot](https://github.com/Emmalu868/Solidity/blob/main/Images/10%20ether%20as%20wei%20confirmation%20of%20transaction.png)
+![Result screenshot](https://github.com/Emmalu868/Solidity/blob/main/Images/contract%20balance%2010%20ether.png)
 
-    * Transaction 3: Send 5 ether.
+    * Transaction 3: Send 5 ether.   
+![Result screenshot](https://github.com/Emmalu868/Solidity/blob/main/Images/5%20ether%20confirmation%20of%20transaction.png)
+![Result screenshot](https://github.com/Emmalu868/Solidity/blob/main/Images/contract%20balance%205%20ether.png)
 
     > **Note** Remembering how to convert ether to wei and vice versa can be challenging. So, you can use a website like [Ethereum Unit Converter](https://eth-converter.com/) to ease doing the conversion.
 
 3. Once you’ve successfully deposited funds into your contract, test the contract’s withdrawal functionality by withdrawing 5 ether into `accountOne` and 10 ether into `accountTwo`. After each transaction, use the `contractBalance` function to verify that the funds were withdrawn from your contract. Also, use the `lastToWithdraw` and `lastWithdrawAmount` functions to verify that the address and amount were correct.
+
+#### Withdraw 5 ether to `accountOne`
+
+![](https://github.com/Emmalu868/Solidity/blob/main/Images/withdraw%205%20to%20acountOne.png)
+
+![](https://github.com/Emmalu868/Solidity/blob/main/Images/withdraw%205%20confirmation.png)
+
+![](https://github.com/Emmalu868/Solidity/blob/main/Images/withdraw%205%20balance.png)
+
+#### Withdraw 10 ether to `accountTwo`
+
+![](https://github.com/Emmalu868/Solidity/blob/main/Images/withdraw%2010%20to%20account2.png)
+
+![](https://github.com/Emmalu868/Solidity/blob/main/Images/withdraw%2010%20balance.png)
+
+![](https://github.com/Emmalu868/Solidity/blob/main/Images/withdraw%2010%20confirmation'.png)
+
+#### Account Balance
+![](https://github.com/Emmalu868/Solidity/blob/main/Images/final%20acct%20bal.png)
 
 ---
 
