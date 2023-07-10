@@ -104,24 +104,24 @@ To interact with your deployed smart contract, complete the following steps:
 
 3. Once you’ve successfully deposited funds into your contract, test the contract’s withdrawal functionality by withdrawing 5 ether into `accountOne` and 10 ether into `accountTwo`. After each transaction, use the `contractBalance` function to verify that the funds were withdrawn from your contract. Also, use the `lastToWithdraw` and `lastWithdrawAmount` functions to verify that the address and amount were correct.
 
-#### Withdraw 5 ether to `accountOne`
+    #### Withdraw 5 ether to `accountOne`
 
-![](https://github.com/Emmalu868/Solidity/blob/main/Images/withdraw%205%20to%20acountOne.png)
+    ![](https://github.com/Emmalu868/Solidity/blob/main/Images/withdraw%205%20to%20acountOne.png)
 
-![](https://github.com/Emmalu868/Solidity/blob/main/Images/withdraw%205%20confirmation.png)
+    ![](https://github.com/Emmalu868/Solidity/blob/main/Images/withdraw%205%20confirmation.png)
 
-![](https://github.com/Emmalu868/Solidity/blob/main/Images/withdraw%205%20balance.png)
+    ![](https://github.com/Emmalu868/Solidity/blob/main/Images/withdraw%205%20balance.png)
 
-#### Withdraw 10 ether to `accountTwo`
+    #### Withdraw 10 ether to `accountTwo`
 
-![](https://github.com/Emmalu868/Solidity/blob/main/Images/withdraw%2010%20to%20account2.png)
+    ![](https://github.com/Emmalu868/Solidity/blob/main/Images/withdraw%2010%20to%20account2.png)
 
-![](https://github.com/Emmalu868/Solidity/blob/main/Images/withdraw%2010%20balance.png)
+    ![](https://github.com/Emmalu868/Solidity/blob/main/Images/withdraw%2010%20balance.png)
 
-![](https://github.com/Emmalu868/Solidity/blob/main/Images/withdraw%2010%20confirmation'.png)
+    ![](https://github.com/Emmalu868/Solidity/blob/main/Images/withdraw%2010%20confirmation'.png)
 
-#### Account Balance
-![](https://github.com/Emmalu868/Solidity/blob/main/Images/final%20acct%20bal.png)
+    #### Account Balance
+    ![](https://github.com/Emmalu868/Solidity/blob/main/Images/final%20acct%20bal.png)
 
 ---
 
